@@ -875,7 +875,7 @@ main {
   #PORTFOLIO
 \*-----------------------------------*/
 
-.filter-list { display: none; }
+/* .filter-list { display: none; }
 
 .filter-select-box {
   position: relative;
@@ -1026,7 +1026,7 @@ main {
   font-weight: var(--fw-300);
 }
 
-
+ */
 
 
 
@@ -1599,7 +1599,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * PORTFOLIO
    */
 
-  .article-title { padding-bottom: 20px; }
+  /* .article-title { padding-bottom: 20px; }
 
   .filter-select-box { display: none; }
 
@@ -1620,11 +1620,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .filter-item button:hover { color: var(--light-gray-70); }
 
-  .filter-item button.active { color: var(--orange-yellow-crayola); }
+  .filter-item button.active { color: var(--orange-yellow-crayola); } */
 
   /* portfolio and blog grid */
 
-  .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
+  /* .project-list,  */
+  .blog-posts-list { grid-template-columns: 1fr 1fr; }
 
 
 
@@ -1744,7 +1745,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * PORTFOLIO
    */
 
-  .project-list { grid-template-columns: repeat(3, 1fr); }
+  /* .project-list { grid-template-columns: repeat(3, 1fr); } */
 
 
 
