@@ -11,6 +11,7 @@ const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 const sidebar = document.querySelector("[data-sidebar]");
 const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
+console.log("sidebarBtn:", sidebarBtn); // Aggiungi questo
 // sidebar toggle functionality for mobile
 sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
 
